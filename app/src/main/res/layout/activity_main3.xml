@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/regesit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/heheda"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="@string/text_5"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textSize="50dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/registname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="请输入账号："
+        android:selectAllOnFocus="true"
+        android:singleLine="true"></EditText>
+
+    <EditText
+        android:id="@+id/registpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码："
+        android:selectAllOnFocus="true"
+        android:singleLine="true"></EditText>
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp"
+        android:text="@string/text_1"></Button>
+
+</LinearLayout>

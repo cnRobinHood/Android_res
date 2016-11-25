@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hehe"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="登录界面"
+        android:textSize="50sp"></TextView>
+
+    <TableLayout
+        android:id="@+id/TableLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="账号："
+                android:textSize="16sp"></TextView>>
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:hint="请输入账号："
+                android:selectAllOnFocus="true"
+                android:singleLine="true"></EditText>>
+        </TableRow>
+        >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="密码："
+                android:textSize="16sp"></TextView>>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="请输入密码："
+                android:password="true"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"></EditText>>
+        </TableRow>
+        >
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/TableLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1,2">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="@string/text_1"></Button>
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="@string/text_2"></Button>
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="@string/text_3"></Button>>
+
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
+
